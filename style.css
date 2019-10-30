@@ -513,6 +513,8 @@ h4{
 @media screen and (max-width: 479px) {/*ウィンドウ幅が最大479pxまでの場合に適用*/
     #menu-bg{
     background-image: url("siro.png");
+    background-size:cover;
+    background-attachment: fixed;
     }
 
 }
