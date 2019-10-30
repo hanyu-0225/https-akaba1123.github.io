@@ -1,17 +1,22 @@
 body
-@media screen and (max-width: 479px) {/*ウィンドウ幅が最大479pxまでの場合に適用*/
-    #menu-bg{
-        background-image: url("siro.png");
-        background-size:contain;
-        background-attachment: fixed;
-    }
-
-}
 {
     background-image: url("siro.png");
     background-size:cover;
     background-attachment: fixed;
 } 
+
+.header-bg {
+@media screen and (max-width: 479px) {/*ウィンドウ幅が最大479pxまでの場合に適用*/
+    #menu-bg{
+        background-attachment: fixed;
+        background-image: url("siro.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+}
+}
 header{
     background: rgba(255, 255, 255, 0.5);
 }
