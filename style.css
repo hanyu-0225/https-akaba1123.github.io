@@ -1,4 +1,12 @@
 body
+@media screen and (max-width: 479px) {/*ウィンドウ幅が最大479pxまでの場合に適用*/
+    #menu-bg{
+        background-image: url("siro.png");
+        background-size:cover;
+        background-attachment: fixed;
+    }
+
+}
 {
     background-image: url("siro.png");
     background-size:cover;
@@ -510,11 +518,3 @@ h4{
         .cp03 input:checked ~ div.cp_container {
             height: 600px;
         }
-@media screen and (max-width: 479px) {/*ウィンドウ幅が最大479pxまでの場合に適用*/
-    #menu-bg{
-    background-image: url("siro.png");
-    background-size:cover;
-    background-attachment: fixed;
-    }
-
-}
