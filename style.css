@@ -1,0 +1,515 @@
+body
+{
+    background-image: url("siro.png");
+    background-size:cover;
+    background-attachment: fixed;
+} 
+header{
+    background: rgba(255, 255, 255, 0.5);
+}
+.headerInner{
+    width: 650px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mainInner{
+    width: 650px;
+    margin: auto;
+}
+footer{
+    background: #000000;
+}
+
+.footerInner{
+    text-align: center;
+    margin-top: 0px;
+    padding: 0px;
+}
+.headerInner,.mainInner{
+    max-width: 650px;
+    margin: auto;
+    padding: 0px;
+    padding: 0px;
+}
+.font_test {color: #F44336}
+h1{
+    color:#000000;
+}
+.btn{
+    border-radius: 5px;
+    height:100%;
+    width:650px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+  h2{
+    font-size:250%;
+    color: #000000;
+    background-color: #ffffff;
+    background: rgba(255, 255, 255, 0.5);
+    text-align:  center;
+ }
+  p {font-weight:bold;
+      text-align: center; 
+     background: rgba(255, 255, 255, 0.5)
+    }
+  h3{
+    font-size:200%;
+    color: #000000;
+    background-color: #ffffff;
+    text-align:center;
+    background: rgba(255, 255, 255, 0.5);
+    
+
+  }
+  div{
+
+  }
+img{
+    width:200px;
+    height:60px;
+}
+img{
+    top:1000;
+}
+.example {
+    position: relative;
+    }
+  
+  .example a {/*aタグを画像の真ん中に*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    /*以下装飾*/
+    margin:0;/*余計な隙間を除く*/
+    font-size: 20px;/*文字サイズ*/
+    border: solid white 2px; /*線で囲う*/
+    padding: 7px;/*文字と線の間の余白*/
+    color: white;/*文字色*/
+    text-decoration: none;/*下線を表示させない*/
+    }
+  
+  .example a:hover{/*カーソルを当てたとき*/
+    background: rgba(255, 255, 255, 0.3);/*背景を半透明に*/
+    }
+  
+  .example img {
+    width: 100%;
+  }
+    .cp00 *, .cp00 *:before, .cp00 *:after {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .cp00{
+        width: 450px;
+        margin: 2em auto;
+    }
+    .cp00label {
+        font-weight: bold;
+        position: relative;
+        display: block;
+        width: 100%;
+        margin: auto;
+        padding: 0.3em 1em;
+        cursor: pointer;
+        transition: all 0.3s;
+        text-align: center;
+        color: #ffffff;
+        border: 2px solid #ffffff;
+        border-radius: 3px;
+    }
+    .cp00 label:hover {
+        transition: all 0.3s;
+        color: rgba;
+        background:rgba;
+    }
+    .cp00 label::after {
+        font-family: 'FontAwesome';
+        content: ' \f067';
+        color: #da3c41;
+    }
+    .cp00 label:hover::after {
+        color: rgba;
+    }
+    .cp00 input:checked ~ label::after {
+        font-family: 'FontAwesome';
+        content: ' \f068';
+        color: #da3c41;
+    }
+    .cp00 input:checked ~ label:hover::after {
+        color: #ffffff;
+    }
+    .cp00 input {
+        display: none;
+    }
+    .cp00 .cp_container 
+    {
+        position: relative;
+        z-index: 10;
+        overflow: hidden;
+        height: 0;
+        margin-top: -1px;
+        transition: height 0.3s ease-in-out,box-shadow 0.6s linear;
+        background: rgba(255, 255, 255, 0.5);
+        align-items: center;
+}
+    .cp00 input:checked ~ div {
+        transition: height 0.5s ease-in-out,box-shadow 0.1s linear;
+    }
+    /* 続きを読むを押すと表示されるテキストの高さ */
+    .cp00 input:checked ~ div.cp_container {
+        height: 400px;
+    }
+h4{
+    font-size: 10px;
+    height: 100%;
+    text-align: center;
+    margin: 19px;
+    }
+ h5{
+     font-size: 10px;
+     height: 100%;
+    text-align: center;
+     margin: 19px;
+        }
+        .example {
+            position: relative;
+            }
+          
+          .example a {/*aタグを画像の真ん中に*/
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -ms-transform: translate(-50%,-50%);
+            -webkit-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+            /*以下装飾*/
+            margin:0;/*余計な隙間を除く*/
+            font-size: 20px;/*文字サイズ*/
+            border: solid white 2px; /*線で囲う*/
+            padding: 7px;/*文字と線の間の余白*/
+            color: white;/*文字色*/
+            text-decoration: none;/*下線を表示させない*/
+            }
+          
+          .example a:hover{/*カーソルを当てたとき*/
+            background: rgba(255, 255, 255, 0.3);/*背景を半透明に*/
+            }
+         .example a:hover{/*カーソルを当てたとき*/
+            background: rgba(255, 255, 255, 0.3);/*背景を半透明に*/
+            }
+          
+          .example img {
+            width: 100%;
+          }
+          .cp01 *, .cp01 *:before, .cp01 *:after {
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        .cp01{
+            width: 450px;
+            margin: 2em auto;
+        }
+        .cp01label {
+            font-weight: bold;
+            position: relative;
+            display: block;
+            width: 100%;
+            margin: auto;
+            padding: 0.3em 1em;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-align: center;
+            color: #ffffff;
+            border: 2px solid #ffffff;
+            border-radius: 3px;
+        }
+        .cp01 label:hover {
+            transition: all 0.3s;
+            color: rgba;
+            background:rgba;
+        }
+        .cp01 label::after {
+            font-family: 'FontAwesome';
+            content: ' \f067';
+            color: #da3c41;
+        }
+        .cp01 label:hover::after {
+            color: rgba;
+        }
+        .cp01 input:checked ~ label::after {
+            font-family: 'FontAwesome';
+            content: ' \f068';
+            color: #da3c41;
+        }
+        .cp01 input:checked ~ label:hover::after {
+            color: #ffffff;
+        }
+        .cp01 input {
+            display: none;
+        }
+        .cp01 .cp_container 
+        {
+            position: relative;
+            z-index: 10;
+            overflow: hidden;
+            height: 0;
+            margin-top: -1px;
+            transition: height 0.3s ease-in-out,box-shadow 0.6s linear;
+            background: rgba(255, 255, 255, 0.5);
+            align-items: center;
+    }
+        .cp01 input:checked ~ div {
+            transition: height 0.5s ease-in-out,box-shadow 0.1s linear;
+        }
+        /* 続きを読むを押すと表示されるテキストの高さ */
+        .cp01 input:checked ~ div.cp_container {
+            height: 300px;
+        }
+        .example {
+            position: relative;
+            } 
+            .example a:hover{/*カーソルを当てたとき*/
+                background: rgba(255, 255, 255, 0.3);/*背景を半透明に*/
+                }
+              
+              .example img {
+                width: 100%;
+              }
+              .cp02 *, .cp02 *:before, .cp02 *:after {
+                -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+            }
+            .cp02{
+                width: 450px;
+                margin: 2em auto;
+            }
+            .cp02label {
+                font-weight: bold;
+                position: relative;
+                display: block;
+                width: 100%;
+                margin: auto;
+                padding: 0.3em 1em;
+                cursor: pointer;
+                transition: all 0.3s;
+                text-align: center;
+                color: #ffffff;
+                border: 2px solid #ffffff;
+                border-radius: 3px;
+            }
+            .cp02 label:hover {
+                transition: all 0.3s;
+                color: rgba;
+                background:rgba;
+            }
+            .cp02 label::after {
+                font-family: 'FontAwesome';
+                content: ' \f067';
+                color: #da3c41;
+            }
+            .cp02 label:hover::after {
+                color: rgba;
+            }
+            .cp02 input:checked ~ label::after {
+                font-family: 'FontAwesome';
+                content: ' \f068';
+                color: #da3c41;
+            }
+            .cp02 input:checked ~ label:hover::after {
+                color: #ffffff;
+            }
+            .cp02 input {
+                display: none;
+            }
+            .cp02 .cp_container 
+            {
+                position: relative;
+                z-index: 10;
+                overflow: hidden;
+                height: 0;
+                margin-top: -1px;
+                transition: height 0.3s ease-in-out,box-shadow 0.6s linear;
+                background: rgba(255, 255, 255, 0.5);
+                align-items: center;
+                
+        }
+            .cp02 input:checked ~ div {
+                transition: height 0.5s ease-in-out,box-shadow 0.1s linear;
+            }
+            /* 続きを読むを押すと表示されるテキストの高さ */
+            .cp02 input:checked ~ div.cp_container {
+                height: 400px;
+            }
+            .example {
+                position: relative;
+                }
+            .example img {
+            width: 100%;
+          }
+          .cp02 *, .cp02 *:before, .cp02 *:after {
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        .cp02{
+            width: 450px;
+            margin: 2em auto;
+        }
+        .cp02label {
+            font-weight: bold;
+            position: relative;
+            display: block;
+            width: 100%;
+            margin: auto;
+            padding: 0.3em 1em;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-align: center;
+            color: #ffffff;
+            border: 2px solid #ffffff;
+            border-radius: 3px;
+        }
+        .cp02 label:hover {
+            transition: all 0.3s;
+            color: rgba;
+            background:rgba;
+        }
+        .cp02 label::after {
+            font-family: 'FontAwesome';
+            content: ' \f067';
+            color: #da3c41;
+        }
+        .cp02 label:hover::after {
+            color: rgba;
+        }
+        .cp02 input:checked ~ label::after {
+            font-family: 'FontAwesome';
+            content: ' \f068';
+            color: #da3c41;
+        }
+        .cp02 input:checked ~ label:hover::after {
+            color: #ffffff;
+        }
+        .cp02 input {
+            display: none;
+        }
+        .cp02 .cp_container 
+        {
+            position: relative;
+            z-index: 10;
+            overflow: hidden;
+            height: 0;
+            margin-top: -1px;
+            transition: height 0.3s ease-in-out,box-shadow 0.6s linear;
+            background: rgba(255, 255, 255, 0.5);
+            align-items: center;
+            text-align: center;
+    }
+        .cp02 input:checked ~ div {
+            transition: height 0.5s ease-in-out,box-shadow 0.1s linear;
+        }
+        /* 続きを読むを押すと表示されるテキストの高さ */
+        .cp02 input:checked ~ div.cp_container {
+            height: 350px;
+        }
+        .example {
+            position: relative;
+            }
+          
+          .example a {/*aタグを画像の真ん中に*/
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -ms-transform: translate(-50%,-50%);
+            -webkit-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+            /*以下装飾*/
+            margin:0;/*余計な隙間を除く*/
+            font-size: 20px;/*文字サイズ*/
+            border: solid white 2px; /*線で囲う*/
+            padding: 7px;/*文字と線の間の余白*/
+            color: white;/*文字色*/
+            text-decoration: none;/*下線を表示させない*/
+            }
+          
+          .example a:hover{/*カーソルを当てたとき*/
+            background: rgba(255, 255, 255, 0.3);/*背景を半透明に*/
+            }
+          
+          .example img {
+            width: 100%;
+          }
+          .cp03 *, .cp03 *:before, .cp03 *:after {
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        .cp03{
+            width: 450px;
+            margin: 2em auto;
+        }
+        .cp03label {
+            font-weight: bold;
+            position: relative;
+            display: block;
+            width: 100%;
+            margin: auto;
+            padding: 0.3em 1em;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-align: center;
+            color: #ffffff;
+            border: 2px solid #ffffff;
+            border-radius: 3px;
+        }
+        .cp03 label:hover {
+            transition: all 0.3s;
+            color: #ffffff;
+            background:#ffffff;
+        }
+        .cp03 label::after {
+            font-family: 'FontAwesome';
+            content: ' \f067';
+            color: #da3c41;
+        }
+        .cp03 label:hover::after {
+            color: #ffffff;
+        }
+        .cp03 input:checked ~ label::after {
+            font-family: 'FontAwesome';
+            content: ' \f068';
+            color: #da3c41;
+        }
+        .cp03 input:checked ~ label:hover::after {
+            color: #ffffff;
+        }
+        .cp03 input {
+            display: none;
+        }
+        .cp03 .cp_container 
+        {
+            position: relative;
+            z-index: 10;
+            overflow: hidden;
+            height: 0;
+            margin-top: -1px;
+            transition: height 0.3s ease-in-out,box-shadow 0.6s linear;
+            background: rgba(255, 255, 255, 0.5);
+            align-items: center;
+    }
+        .cp03 input:checked ~ div {
+            transition: height 0.5s ease-in-out,box-shadow 0.1s linear;
+        }
+        /* 続きを読むを押すと表示されるテキストの高さ */
+        .cp03 input:checked ~ div.cp_container {
+            height: 600px;
+        }
+@media all and (max-width: 700px) {
+
+}
