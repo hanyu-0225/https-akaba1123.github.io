@@ -3,19 +3,24 @@ body
     background-image: url("siro.png");
     background-size:cover;
     background-attachment: fixed;
-}
+    width:100%;
+} 
+
+
 @media screen and (max-width: 479px) {/*ウィンドウ幅が最大479pxまでの場合に適用*/
     .header-bg {
         background-image: url("siro.png");
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
+        width:100%;
     }
 }
 header{
     background: rgba(255, 255, 255, 0.5);
-    @media screen and (max-width: 479px): {/*ウィンドウ幅が最大479pxまでの場合に適用*/
-        background-color: rgba(255, 100, 255, 0.5);
+    @media screen and (max-width: 479px) {/*ウィンドウ幅が最大479pxまでの場合に適用*/
+        background: rgba(255, 255, 255, 0.5);
+        width:100%;   
 }
 }
 .headerInner{
