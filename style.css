@@ -5,7 +5,8 @@ body
     background-attachment: fixed;
     @media screen and (max-width:479px){
         background-image: url("siro.png");
-        background-size:cover;
+        background-size: cover;
+        background-size: contain;
         background-attachment: fixed;
     }
 } 
