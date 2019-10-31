@@ -6,7 +6,7 @@ body
 }
 @media screen and (max-width: 479px) {/*ウィンドウ幅が最大479pxまでの場合に適用*/
     .header-bg {
-        background-image: url("siro.png");
+        background-image: url("siro2.png");
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
