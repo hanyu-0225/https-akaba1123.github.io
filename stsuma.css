@@ -1,0 +1,6 @@
+.bg-div {
+    background-image: url("siro3.png");
+    background-size:cover;
+    background-size:contain;
+    background-attachment: fixed;
+  }
