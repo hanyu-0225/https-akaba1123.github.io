@@ -526,8 +526,6 @@ h4{
                     width:100%;
                     height:100vh;
                     background:url(aaa.png) center no-repeat;
-                    background-size: cover;
-                    background-size: contain;
                   }
                 }
 
