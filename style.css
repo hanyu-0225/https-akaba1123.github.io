@@ -517,8 +517,9 @@ h4{
         }
 @media all and (max-width: 980px) {
                 .background{
-                    background: url("siro3.png") center center / cover no-repeat fixed;
-                  
-                }  
+                    background:#ddd url(siro3.png) no-repeat center center;
+                    background-size:contain;
+                 }  
             }
+
 
