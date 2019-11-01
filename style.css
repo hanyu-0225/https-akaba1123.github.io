@@ -515,3 +515,10 @@ h4{
         .cp03 input:checked ~ div.cp_container {
             height: 600px;
         }
+@media screen and (max-width: 750px)
+  {.bg-div {
+    background-image: url("./a/siro3.png");  
+    background-size:cover;
+    background-attachment: fixed;
+  }
+}
