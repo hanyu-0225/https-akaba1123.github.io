@@ -518,7 +518,7 @@ h4{
 @media screen and (max-width: 750px)
   {.bg-div {
     background-image: url("./a/siro3.png");  
-    background-size:cover;
+    background-size:contain;
     background-attachment: fixed;
   }
 }
