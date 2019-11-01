@@ -10,11 +10,9 @@ body
         background-attachment: fixed;
     }
 } 
-@media screen and (max-width:479px){
-    body{
-        background-image: url("siro3.png");
-        background-size:cover;
-        background-attachment: fixed;
+@media (max-width: 479px) {
+    .bg-div {
+      background-image: url("siro3.png");
     }
   }
 header{
