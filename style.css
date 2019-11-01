@@ -4,14 +4,13 @@ body
     background-size:cover;
     background-attachment: fixed;
 }
-@media (max-width: 479px) {
-    .bg-div {
-      background-image: url("siro3.png");
-      background-size:cover;
-      background-size:contain;
-      background-attachment: fixed;
-    }
+@media all and (aspect-ratio: 16/9) {.bg-div {
+    background-image: url("siro3.png");
+    background-size:cover;
+    background-size:contain;
+    background-attachment: fixed;
   }
+}
 header{
     background: rgba(255, 255, 255, 0.5);
     @media screen and (max-width: 479px) {/*ウィンドウ幅が最大479pxまでの場合に適用*/
