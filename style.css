@@ -523,8 +523,8 @@ h4{
                     top:0;
                     left:0;
                     z-index:-1;
-                    width:100vw;
-                    height:100vh;
+                    width:200vw;
+                    height:200vh;
                     background:url(t.png) center no-repeat;
                     background-size:100% 100%;
                     position: absolute;
