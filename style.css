@@ -516,7 +516,7 @@ h4{
             height: 600px;
         }
 @media all and (max-width: 980px) {
-                .header-bg {
+                .background{
                     background: url("siro3.png") center center / cover no-repeat fixed;
                   
                 }  
