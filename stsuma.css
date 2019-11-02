@@ -1,6 +1,6 @@
 body
 {
-  background-image: url("t.png");
+ content:"";
   display:block;
   position: fixed;
   top: 0;
@@ -10,6 +10,8 @@ body
   margin: auto;
   width: 100vw;
   height: 100vh;
+  background:url(t.png) center no-repeat;
+  background-size:cover;
 }
 title{
   text-align: left;
