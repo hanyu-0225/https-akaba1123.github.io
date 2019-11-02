@@ -1,8 +1,4 @@
 body
-.sumahogg {
-  height: 100vh;
-  padding:100%;
- }
 .sumahogg::before{
   background: url("t.png");
   background-position: center center;
