@@ -515,17 +515,3 @@ h4{
         .cp03 input:checked ~ div.cp_container {
             height: 600px;
         }
-@media all and (max-width: 980px) {
-               .test {
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    right: 0;
-                    bottom: 0;
-                    margin: auto;
-                    width: 100vw;
-                    height: 100vh;
-                    background-size: cover
-                  }
-                }
-
