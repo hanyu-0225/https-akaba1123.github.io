@@ -1,6 +1,6 @@
 body:
 {
- background-image: url("t.png");
+ background: url(t.png);: url("t.png");
   position: absolute;
   top: 0;
   left: 0;
