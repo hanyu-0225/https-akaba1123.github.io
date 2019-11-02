@@ -1,13 +1,19 @@
 body
-{
-  background-image: url("t.png");
-  position: absolute;
+.t.png::before{
+  background: url("t.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  /*background-attachment: fixed;*/
+  position: fixed;
   top: 0;
   left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
   width: 100vw;
   height: 100vh;
-}
-
+  padding: 10% 0;
+  content: "";
+  z-index: -1;
+ }
