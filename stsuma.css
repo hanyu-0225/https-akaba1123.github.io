@@ -1,7 +1,8 @@
 body
 {
   background-image: url("t.png");
-   position: fixed;
+  display:block;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
