@@ -1,9 +1,4 @@
 body
-{
-    background-image: url("siro.png");
-    background-size:cover;
-    background-attachment: fixed;
-} 
 /* パソコンで見たときは"pc"のclassがついた画像が表示される */
 .pc { display: block !important; }
 .sp { display: none !important; }
