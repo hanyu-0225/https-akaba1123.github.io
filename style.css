@@ -1,10 +1,12 @@
 body
-{
-    background-image: url("siro.png");
-    background-size:cover;
-    background-attachment: fixed;
+/* パソコンで見たときは"pc"のclassがついた画像が表示される */
+.pc { display: block !important; }
+.sp { display: none !important; }
+/* スマートフォンで見たときは"sp"のclassがついた画像が表示される */
+@media only screen and (max-width: 750px) {
+.pc { display: none !important; }
+.sp { display: block !important; }
 }
-
 header{
     background: rgba(255, 255, 255, 0.5);
     @media screen and (max-width: 479px) {/*ウィンドウ幅が最大479pxまでの場合に適用*/
