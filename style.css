@@ -516,7 +516,7 @@ h4{
             height: 600px;
         }
 @media all and (max-width: 980px) {
-                body:before{
+               .header-bg {
                     content:"";
                     display:block;
                     position:fixed;
