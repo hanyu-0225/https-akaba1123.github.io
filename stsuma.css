@@ -3,10 +3,10 @@ body
   background: url("t.png");
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover contain;
-  -webkit-background-size: cover contain;
-  -moz-background-size: cover contain;
-  -o-background-size: cover contain;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-attachment: fixed;
   position: fixed;
   top: 0;
