@@ -21,6 +21,7 @@ body
  header{
   background: rgba(255, 255, 255, 0.5);
   text-align:center;
+  position: relative;
 }
 .headerInner{
   width: 750px;
@@ -29,37 +30,45 @@ body
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
   background-color:rgba(255, 255, 255, 0.5);
   width: 100%;
   text-align:center;
+  position: relative;
 }
 .mainInner{
   width: 750px;
   margin: auto;
+  position: relative;
 }
 footer{
   background: #000000;
   text-align:center;
+  position: relative;
 }
 
 .footerInner{
   text-align: center;
   margin-top: 0px;
   padding: 0px;
+  position: relative;
 }
 .headerInner,.mainInner{
   max-width: 750px;
   margin: auto;
   padding: 0px;
   padding: 0px;
+  position: relative;
 }
 .font_test {
   color: #F44336;
   text-align: center;
+  position: relative;
 }
 h1{
   color:#000000;
   text-align:center;
+  position: relative;
 }
 .btn{
   border-radius: 5px;
@@ -68,4 +77,5 @@ h1{
   padding: 20px;
   text-align: center;
   color: white;
+  position: relative;
 }
