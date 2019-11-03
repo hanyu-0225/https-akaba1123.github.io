@@ -16,13 +16,14 @@ body
   padding: 100%;
   content: "";
   z-index: -1;
+
  }
-header{
+ header{
   background: rgba(255, 255, 255, 0.5);
   text-align:center;
 }
 .headerInner{
-  width: 650px;
+  width: 750px;
   height: 100%;
   margin: auto;
   display: flex;
@@ -33,7 +34,7 @@ header{
   text-align:center;
 }
 .mainInner{
-  width: 650px;
+  width: 750px;
   margin: auto;
 }
 footer{
@@ -47,7 +48,7 @@ footer{
   padding: 0px;
 }
 .headerInner,.mainInner{
-  max-width: 650px;
+  max-width: 750px;
   margin: auto;
   padding: 0px;
   padding: 0px;
@@ -63,7 +64,7 @@ h1{
 .btn{
   border-radius: 5px;
   height:100%;
-  width:650px;
+  width:750px;
   padding: 20px;
   text-align: center;
   color: white;
