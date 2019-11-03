@@ -16,4 +16,15 @@ body
   padding: 100%;
   content: "";
   z-index: -1;
- 
+ }
+ header{
+  background: rgba(255, 255, 255, 0.5);
+}
+.headerInner{
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
