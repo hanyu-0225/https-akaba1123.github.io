@@ -17,8 +17,45 @@ body
   content: "";
   z-index: -1;
  }
+header{
+    background: rgba(255, 255, 255, 0.5);
+}
 .headerInner{
-    width: 750px;
+    width: 650px;
     height: 100%;
     margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+.mainInner{
+    width: 650px;
+    margin: auto;
+}
+footer{
+    background: #000000;
+}
+
+.footerInner{
+    text-align: center;
+    margin-top: 0px;
+    padding: 0px;
+}
+.headerInner,.mainInner{
+    max-width: 650px;
+    margin: auto;
+    padding: 0px;
+    padding: 0px;
+}
+.font_test {color: #F44336}
+h1{
+    color:#000000;
+}
+.btn{
+    border-radius: 5px;
+    height:100%;
+    width:650px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
