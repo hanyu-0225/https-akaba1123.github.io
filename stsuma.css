@@ -24,6 +24,7 @@ body
   position: relative;
 }
 .headerInner{
+  background:rgba(255, 255, 255, 0.5);
   width: 750px;
   height: 100%;
   margin: auto;
