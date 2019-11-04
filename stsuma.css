@@ -23,14 +23,25 @@ body
   width: 700px;
   width: 700px;
 }
-.headerInner,.mainInner{
+.headerInner{
   background:rgba(255, 255, 255, 0.5);
-  width: 650px;
+  width: 750px;
   height: 100%;
   margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.mainInner{
+  font-size: 150%;
+  background:rgba(255, 255, 255, 0.5);
+  width: 750px;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 }
 h1{
   color:#000000;
