@@ -20,24 +20,15 @@ body
  header{
   background: rgba(255, 255, 255, 0.5);
   text-align:center;
-  width: 700px;
-   background-size: cover;
+  width: width: 750px;;
+  width: 750px;
 }
 .headerInner{
   background:rgba(255, 255, 255, 0.5);
-  width: 750px;
+  width: 650px;
+  height: 100%;
   margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-.mainInner{
-  font-size: 150%;
-  background:rgba(255, 255, 255, 0.5);
-  width: 750px;
-  margin: auto;
-}
-h1{
-  color:#000000;
-  text-align:  center;
 }
