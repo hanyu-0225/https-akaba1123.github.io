@@ -21,6 +21,7 @@ body
   background: rgba(255, 255, 255, 0.5);
   text-align:center;
   width: 700px;
+   background-size: cover;
 }
 .headerInner{
   background:rgba(255, 255, 255, 0.5);
