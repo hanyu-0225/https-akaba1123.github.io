@@ -23,7 +23,7 @@ body
   width: 750px;
   width: 750px;
 }
-.headerInner{
+.headerInner,.mainInner{
   background:rgba(255, 255, 255, 0.5);
   width: 650px;
   height: 100%;
@@ -31,6 +31,10 @@ body
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+h1{
+  color:#000000;
+  text-align:  center;
 }
 h2{
   font-size:250%;
