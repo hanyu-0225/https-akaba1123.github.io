@@ -17,27 +17,17 @@ body
   content: "";
   z-index: -1;
  }
-  header{
+ header{
   background: rgba(255, 255, 255, 0.5);
-  background-size: cover;
-}
-.hwrapper{
-  width: 749px;
-  background-color: rgba(red, green, blue, alpha);
-  background-size: cover;
-}
- .header{
-  margin: auto;
-  max-width: 100%;
-  padding: 10px;
+  text-align:center;
+  width: 750px;
+  width: 100px;
 }
 .headerInner{
-  background:rgba(255, 255, 255, 0.5);
-  width: 300px;
+  width: 650px;
   height: 100%;
   margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: cover;
 }
