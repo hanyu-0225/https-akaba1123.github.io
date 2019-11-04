@@ -17,9 +17,12 @@ body
   content: "";
   z-index: -1;
  }
-header{
-  background: rgba(255, 255, 255, 0.5);
-  text-align:center;
-  width: 950px;
-  background-size: cover;
+ .hwrapper{
+  width: 100%;
+  background-color: rgba(red, green, blue, alpha);
+}
+ .header{
+  margin: auto;
+  max-width: 800px;
+  padding: 10px;
 }
