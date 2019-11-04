@@ -20,8 +20,8 @@ body
  header{
   background: rgba(255, 255, 255, 0.5);
   text-align:center;
-  width: 750px;
-  width: 750px;
+  width: 700px;
+  width: 700px;
 }
 .headerInner,.mainInner{
   background:rgba(255, 255, 255, 0.5);
