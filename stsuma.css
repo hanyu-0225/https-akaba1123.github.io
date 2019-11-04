@@ -32,3 +32,11 @@ body
   justify-content: space-between;
   align-items: center;
 }
+h2{
+  font-size:250%;
+  color: #000000;
+  background-color: #ffffff;
+  background-size: cover;
+  background: rgba(255, 255, 255, 0.5);
+  text-align:  center;
+}
