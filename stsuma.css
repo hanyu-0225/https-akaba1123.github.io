@@ -20,6 +20,7 @@ body
  .hwrapper{
   width: 100%;
   background-color: rgba(red, green, blue, alpha);
+  background-size: cover;
 }
  .header{
   margin: auto;
