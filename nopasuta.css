@@ -6,9 +6,8 @@ body
 } 
  
 header{
-    background: rgba(255, 255, 255, 0.5);
-}
-.taitoru{
+    background: rgba(255, 255, 255, 0.5); 
+    text-align: center;
     width: 650px;
     height: 100%;
     margin: auto;
@@ -17,8 +16,14 @@ header{
     align-items: center;
     text-align: center;
 }
-h1{
-    color:#000000;
+p.taitoru{
+    width: 650px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
 }
 .test{
     color: #F44336
