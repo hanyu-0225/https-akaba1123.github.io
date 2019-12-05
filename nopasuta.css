@@ -16,7 +16,7 @@ header{
     align-items: center;
     text-align: center;
 }
-p.taitoru{
+h1{
     width: 650px;
     height: 100%;
     margin: auto;
@@ -24,16 +24,6 @@ p.taitoru{
     justify-content: space-between;
     align-items: center;
     text-align: center;
-}
-p.test{
-    color: #F44336;
-    text-align: center;
-    width: 650px;
-    height: 100%;
-    margin: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 span.aka{
     width: 650px;
