@@ -25,7 +25,7 @@ p.taitoru{
     align-items: center;
     text-align: center;
 }
-.test{
+p.test{
     color: #F44336;
     text-align: center;
     width: 650px;
@@ -34,6 +34,15 @@ p.taitoru{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+span.aka{
+    width: 650px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
 }
 p.syoumenn{
     text-align: center;
