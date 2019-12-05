@@ -26,4 +26,6 @@ footer{
 h1{
     color:#000000;
 }
-.font_test {color: #F44336}
+span.test{
+    color: #F44336
+}
