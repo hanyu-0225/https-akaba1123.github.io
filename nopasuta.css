@@ -1,0 +1,18 @@
+body
+{
+    background-image: url("soso.png");
+    background-size:cover;
+    background-attachment: fixed;
+} 
+ 
+header{
+    background: rgba(255, 255, 255, 0.5);
+}
+.headerInner{
+    width: 650px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
