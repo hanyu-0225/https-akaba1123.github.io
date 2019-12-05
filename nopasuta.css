@@ -27,7 +27,14 @@ p.taitoru{
 }
 .test{
     color: #F44336;
-    margin:0;
+    text-align: center;
+    width: 650px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
 }
 p.syoumenn{
     text-align: center;
