@@ -9,10 +9,9 @@ header{
     background: rgba(255, 255, 255, 0.5); 
     margin: 0 auto;
 }
-h1.taitoru{
+h1{
     width: 650px;
     height: 100%;
-    margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
