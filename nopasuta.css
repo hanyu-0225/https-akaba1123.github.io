@@ -10,13 +10,6 @@ header{
     margin: 0 auto;
 }
 h1.taitoru{
-    width: 650px;
-    height: 100%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
 }
 span.aka{
     width: 650px;
