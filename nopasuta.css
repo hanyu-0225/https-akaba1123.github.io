@@ -8,11 +8,21 @@ body
 header{
     background: rgba(255, 255, 255, 0.5);
 }
-.headerInner{
+p.taitoru{
     width: 650px;
     height: 100%;
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.mainInner{
+    width: 650px;
+    margin: auto;
+}
+footer{
+    background: #000000;
+}
+h1{
+    color:#000000;
 }
