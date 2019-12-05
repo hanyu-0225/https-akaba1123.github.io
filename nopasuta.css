@@ -15,17 +15,15 @@ p.taitoru{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.mainInner{
-    width: 650px;
-    margin: auto;
-}
-footer{
-    background: #000000;
+    text-align: center;
 }
 h1{
     color:#000000;
 }
 .test{
     color: #F44336
+}
+p.syoumenn{
+    text-align: center;
+    color:#ffffff;
 }
