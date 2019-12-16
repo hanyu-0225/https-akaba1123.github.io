@@ -1,0 +1,316 @@
+@font-face {
+    font-family: 'Papyrus';
+    font-style: normal;
+    font-weight: normal;
+    src: url(../../../font/Papyrus.woff) format('woff');
+  }
+  @font-face {
+    font-family: 'Varela Round';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Varela Round'), local('VarelaRound-Regular'), url(../../../font/Varela_Round.woff) format('woff');
+  }
+  html { background-color:#55075a; }
+  body {
+      color:#f7f2f9;
+      font-size:17px;
+      min-width:890px;
+  }
+  #ground { background:url(background.jpg) repeat fixed; }
+  
+  #page {
+      -webkit-user-select:none;
+      -moz-user-select:none;
+      -ms-user-select:none;
+      user-select:none;
+      position:fixed;
+      z-index:1;
+      border-radius:0 0 4px 4px;
+      box-shadow:0 0 2px 1px rgba(85,7,90,0.5);
+      background-color:rgba(85,7,90,0.5);
+      padding:2px 3px;
+      font-size:12px;
+      top:0;
+      right:8px;
+  /*Ad2*/	-webkit-transition:top 0.5s linear;
+      transition:top 0.5s linear;
+  }
+  #page:hover{
+      top:-18px;
+      padding-bottom:20px;
+      background-color:transparent;
+      box-shadow:none;
+  /*Ad2*/	-webkit-transition:top 0.2s linear;
+      transition:top 0.2s linear;
+  }
+  h1 {
+      font:bold 18px/22px "Hiragino Mincho ProN","MS PMincho",serif;
+      margin:24px 0 34px;
+      display:inline-block;
+      white-space:nowrap;
+      text-shadow:0px 0px 4px black;
+      border-bottom:1px solid #f7f2f9;
+      -webkit-transform:scale(1,3);
+      transform:scale(1,3);
+      box-shadow:0 1px 0 0 rgba(0,0,0,0.12),inset 0 -1px 0 0 rgba(0,0,0,0.12);
+  }
+  .ni { letter-spacing:21px; }
+  .red { color:#f66;display:inline !important; }
+  strong .red{ color:#f76; }
+  .fukidashi .red { color:#f88; }
+  h1 .red { color:#ff3a3a; }
+  
+  section { position:relative; }
+  #date {
+      position:absolute;
+      top:-8px;
+      right:6px;
+      font-size:16px;
+      font-family:Osaka,"Meiryo UI","MS Gothic","Hiragino Kaku Gothic ProN",monospace;
+  }
+  #date span { color:rgba(255,0,0,0.8); background:rgba(0,0,0,0.8); text-shadow:none !important; }
+  
+  h2 {
+      font:bold 23px/1em "貂ｸ繧ｴ繧ｷ繝�け","Yu Gothic",YuGothic,"Hiragino Kaku Gothic ProN","MS PGothic",sans-serif !important;
+      padding-left:1.2em;
+      text-indent:-1.2em;
+      letter-spacing:1px;
+      text-shadow:1px 1px 1px rgba(124,106,130,0.4);
+  }
+  h2:before {
+      color:#dd6e6e;
+      content:"笳�";
+      font-size:90%;
+      padding-right:2px;
+  }
+  .ayumi li:before{
+      content:"笆�";
+      padding-right:0.2em;
+  }
+  .ayumi li{
+      padding-bottom:1px;
+  }
+  .fukidashi {
+      color:white;
+      margin:16px auto 21px;
+      padding:11px 9px 9px 13px;
+      text-align:center;
+      background-color:#7c6a82;
+      font:normal 16px/1.4em "Hiragino Maru Gothic ProN","Varela Round",Meiryo,sans-serif !important;
+      border-radius:14px;
+      position:relative;
+  }
+  p.fukidashi:before {
+      content:" ";
+      position:absolute;
+      width:20px;
+      height:20px;
+      background-color:rgba(124,106,130,0.8);
+      border-radius:10px;
+  }
+  p.fukidashi:after {
+      content:" ";
+      position:absolute;
+      width:12px;
+      height:12px;
+      background-color:rgba(124,106,130,0.6);
+      border-radius:6px;
+  }
+  aside.fukidashi:after {
+      border:8px solid transparent;
+      border-top:16px solid #7c6a82;
+      content:" ";
+      right:30%;
+      bottom:-23px;
+      position:absolute;
+  }
+  img {
+      width:auto;
+      height:auto;
+      border:2px solid #aaa;
+      margin:0 auto 17px;
+      padding:2px;
+      display:block;
+      background-color:#55075a;
+      -webkit-user-select:none;
+      -moz-user-select:none;
+      -ms-user-select:none;
+      user-select:none;
+      pointer-events:none;
+  }
+  .rk img.rk07 {
+      border:2px solid #a6a;
+      margin:0;
+      padding:2px;
+      position:absolute;
+      right:7px;
+      bottom:-13px;
+  /*SF4*/	-webkit-box-shadow:-1px -1px 2px 1px #55075a;
+      box-shadow:-1px -1px 2px 1px #55075a;
+  }
+  .rk img {
+      border:6px double #a6a;
+      margin-bottom:23px;
+  }
+  .rk {
+      position:relative;
+  }
+  #mu img { border:6px double #c66; }
+  #kai img { border:6px double #66c; }
+  #rei img { border:6px double #6c6; }
+  #kira img { border:6px double #dc7; }
+  
+  img.an {
+      border-width:2px !important;
+      border-style:solid !important;
+  }
+  p {
+      line-height:1.3em;
+      font-family:"貂ｸ譏取悃","Yu Mincho",YuMincho,"Hiragino Mincho ProN","MS PMincho",serif;
+  }
+  p .sign {
+      line-height:1em;
+      font-family:"Osaka-mono","Hiragino Kaku Gothic ProN","MS PMincho",sans-serif;
+  }
+  p:not(.fukidashi) { text-shadow:0 0 2px rgba(238,230,241,0.8); }
+  
+  hr { margin:0 0 16px; }
+  a {
+      color:#9cf;
+      text-decoration:none;
+  }
+  a:hover {
+      cursor:url(http://morrys-box.org/scrollbar/pointer.cur),pointer;
+      text-decoration:underline;
+  }
+  strong { color:#fe7; }
+  
+  ul {
+      width:100%;
+      margin:4px 2px;
+      padding:0;
+      overflow:hidden;
+      list-style-type:none;
+      font:normal 21px/1.5em Helvetica,Arial,"Hiragino Kaku Gothic ProN",Meiryo,sans-serif;
+  }
+  li { text-align:center; position:relative;z-index:0; }
+  
+  li.prev {
+      float:left;
+      text-align:left;
+  }
+  li.next {
+      float:right;
+      text-align:right;
+  }
+  ol#topicpath {
+      margin:0 0 0 2em;
+      padding:0;
+      font-size:18px;
+      line-height:1.5em;
+  }
+  ol#topicpath li {
+          display:inline;
+          list-style-type:none;
+      font-family:"Hiragino Kaku Gothic ProN","貂ｸ繧ｴ繧ｷ繝�け","Yu Gothic",YuGothic,Helvetica,Arial,"MS Gothic",sans-serif;
+  }
+  ol#topicpath li:before { content:" > "; }
+  ol#topicpath li:first-child:before { content:" "; }
+  ol#topicpath li a { padding:3px 0; }
+  
+  li.prev:before { content:"竊� "; }
+  li.next:after { content:" 竊�"; }
+  
+  footer {
+      font-family:Papyrus,Andalus,Georgia,"Times New Roman",serif !important;
+      text-shadow:1px 1px 0 rgba(0,0,0,0.2),1px 1px 2px rgba(0,0,0,0.2);
+  }
+  
+  ::-moz-selection { color:rgba(255,0,0,0.8); background:rgba(0,0,0,0.8); text-shadow:none !important; }
+  ::selection { color:rgba(255,0,0,0.8); background:rgba(0,0,0,0.8); text-shadow:none !important; }
+  h1::-moz-selection,h1 .ni::-moz-selection { color:white !important; }
+  h1::selection,h1 .ni::selection { color:white !important; }
+  h1 .red::-moz-selection { color:#ff3a3a !important; }
+  h1 .red::selection { color:#ff3a3a !important; }
+  
+  @media screen and (min-width:769px){
+      #wrap { padding:10px 21px 10px 19px; max-width:1024px; min-width:850px; }
+      #date span {
+          font-size:13px;
+          position:relative;
+          top:-1px;
+      }
+      h2 { padding-top:6px; margin-left:1.2em; margin-right:1em; }
+      .fukidashi { width:500px; white-space:nowrap; }
+      p.fukidashi:before { top:2px; left:-34px; }
+      p.fukidashi:after { top:-3px; left:-58px; }
+      p { text-align:center; margin:14px auto; }
+      .rk { padding-right:5px; }
+      #r_img { margin-right:6%; margin-bottom:-72px; }
+      #l_img { margin-left:6%; z-index:999; position:relative; }
+      img.an { margin-bottom:16px; }
+      li.content:after { font-family:"Hiragino Kaku Gothic ProN",Helvetica,Arial,"MS Gothic",sans-serif; content:"笆ｲ逶ｮ谺｡"; font-size:11px; letter-spacing:0.5em; line-height:1em; position:absolute; bottom:-1.2em; right:6.5em; z-index:-1; }
+      header,section,hr { border:none; border-bottom:2px dotted white; }
+      footer { padding:7px 0 11px !important; font-size:17px !important; }
+      #key { width:200px;margin:0 0 0 auto;font-size:9px; }
+  }
+  @media screen and (max-width:768px){
+      html,body{ min-width:320px; }
+      #ground { background-size:612px auto; }
+      #wrap {
+          padding:10px 4%;
+          max-width:640px;
+          -webkit-box-sizing:border-box;
+          box-sizing:border-box;
+      }
+      h1 { font-size:14px; line-height:17px; margin:19px 0 16px; }
+      .ni { letter-spacing:16px; }
+      h2 { font-size:20px; }
+      .fukidashi { max-width:90%; }
+      #date { font-size:12px;line-height:1em; }
+      #date+h2 { padding-top:14px; }
+      p.fukidashi { margin-top:44px; }
+      p.fukidashi:before { top:-26px; left:10%; }
+      p.fukidashi:after { top:-38px; left:15%; }
+      img {
+          margin-bottom:12px;
+          max-width:100%;
+          height:auto;
+          -webkit-box-sizing:border-box;
+          box-sizing:border-box;
+      }
+      img[src*="skg"] { max-width:calc(100% - 2px); }
+      .rk img.rk07 {
+          width:31%;
+          min-width:100px;
+          border-width:1px !important;
+          paddding:1px;
+          right:-1.5%;
+          bottom:-30%;
+      }
+      .rk img,#mu img,#kai img,#rei img,#kira img { border-width:3px; }
+      #r_img { margin-right:2px; margin-bottom:-16px; }
+      #l_img { margin-left:2px; margin-bottom:5%; z-index:999; position:relative; }
+      img.an { max-width:67%; border-width:1px !important; margin-bottom:3%; }
+      p { font-size:16px; margin:14px 1%; }
+      ol#topicpath { font-size:17px; margin:1em 0 12px; padding:6px 0.5em; border:1px dotted; }
+      strong { display:block; white-space:nowrap; }
+      header,section,hr { border:none; border-bottom:1px dashed white; margin-bottom:0.75em; }
+      li.prev { margin:auto 4% auto 1% }
+      li.next { margin-right:1%; }
+      #key { display:none; }
+  }
+  @media screen and (min-width:641px) and (max-width:768px) {
+       .fukidashi br { display:block !important; }
+  }
+  @media screen and (min-width:481px) and (max-width:768px) {
+      .rk img { margin-bottom:0; }
+      .rk + p { margin-right:32%;margin-right:calc(30% + 9px); min-height:85px;}
+  }
+  @media screen and (max-width:480px){
+      #page { right:1%; }
+      .rk img.rk07 { width:33.3%; }
+      .rk + p { margin-top:20%; }
+      .fukidashi { font-size:15px;/*text-align:left;padding:13px 8px 11px 14px;*/ }
+      strong { display:inline; white-space:normal; }
+  }
